@@ -1,0 +1,29 @@
+{
+  "name": "wpui-sample-plugin",
+  "version": "1.0.0",
+  "description": "WPUI Sample WordPress plugin",
+  "main": "index.js",
+  "scripts": {
+    "build": "wp-scripts build  ",
+    "check-engines": "wp-scripts check-engines",
+    "check-licenses": "wp-scripts check-licenses",
+    "format": "wp-scripts format",
+    "lint:css": "wp-scripts lint-style",
+    "lint:js": "wp-scripts lint-js",
+    "lint:md:docs": "wp-scripts lint-md-docs",
+    "lint:pkg-json": "wp-scripts lint-pkg-json",
+    "packages-update": "wp-scripts packages-update",
+    "start": "wp-scripts start  "
+  },
+  "author": "lubus",
+  "license": "ISC",
+  "devDependencies": {
+    "@wordpress/components": "^25.11.0",
+    "@wordpress/scripts": "^27.9.0"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-chatbotify": "^1.7.0",
+    "react-dom": "^18.2.0"
+  }
+}
